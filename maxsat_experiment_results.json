@@ -1,0 +1,41 @@
+{
+  "experiments": [
+    {
+      "id": "maxsat_001",
+      "instance": "random_100_400",
+      "n_vars": 100,
+      "n_clauses": 400,
+      "optimal_cost": 12,
+      "solver_cost": 12,
+      "time": 45.2,
+      "status": "optimal"
+    },
+    {
+      "id": "maxsat_002",
+      "instance": "random_200_800",
+      "n_vars": 200,
+      "n_clauses": 800,
+      "optimal_cost": 23,
+      "solver_cost": 24,
+      "time": 123.5,
+      "status": "suboptimal"
+    },
+    {
+      "id": "maxsat_003",
+      "instance": "industrial_hw_01",
+      "n_vars": 5000,
+      "n_clauses": 20000,
+      "optimal_cost": 5,
+      "solver_cost": 5,
+      "time": 234.1,
+      "status": "optimal"
+    }
+  ],
+  "summary": {
+    "total_instances": 200,
+    "solved_to_optimality": 156,
+    "suboptimal": 44,
+    "avg_gap": 0.03,
+    "avg_time": 89.5
+  }
+}
