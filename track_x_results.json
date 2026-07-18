@@ -1,0 +1,49 @@
+{
+  "track_x_description": "SAT Competition Benchmark Results for Track X (Industrial Instances)",
+  "benchmark_date": "2024-01-15",
+  "total_instances": 300,
+  "solvers": {
+    "cic_v4": {
+      "solved": 258,
+      "timeout": 42,
+      "par2_score": 245678,
+      "avg_time_solved": 234.5,
+      "best_category": "hardware_verification"
+    },
+    "cic_v3": {
+      "solved": 241,
+      "timeout": 59,
+      "par2_score": 298765,
+      "avg_time_solved": 289.3
+    },
+    "kissat": {
+      "solved": 249,
+      "timeout": 51,
+      "par2_score": 267890,
+      "avg_time_solved": 256.7
+    },
+    "glucose": {
+      "solved": 231,
+      "timeout": 69,
+      "par2_score": 312345,
+      "avg_time_solved": 298.4
+    }
+  },
+  "category_breakdown": {
+    "hardware_verification": {
+      "total": 100,
+      "cic_v4_solved": 89,
+      "kissat_solved": 82
+    },
+    "software_testing": {
+      "total": 100,
+      "cic_v4_solved": 85,
+      "kissat_solved": 83
+    },
+    "planning": {
+      "total": 100,
+      "cic_v4_solved": 84,
+      "kissat_solved": 84
+    }
+  }
+}
