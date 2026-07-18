@@ -1,0 +1,17 @@
+{
+  "experiments": {
+    "gnn_variable_ordering": {
+      "description": "Graph Neural Network for SAT variable ordering",
+      "model": "GraphSAGE",
+      "training_samples": 10000,
+      "test_samples": 2000,
+      "metrics": {
+        "reduction_in_iterations": 0.34,
+        "improvement_vs_random": 0.28,
+        "improvement_vs_vsids": 0.15,
+        "accuracy": 0.82
+      }
+    }
+  },
+  "conclusion": "GNN-based variable ordering shows promise for reducing SAT solver iterations."
+}

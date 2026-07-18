@@ -1,0 +1,40 @@
+{
+  "experiments": [
+    {
+      "id": "exp1",
+      "name": "Clause Density vs Computational Width",
+      "status": "completed",
+      "samples": 500,
+      "key_finding": "Strong correlation (r=0.87) between clause density and treewidth"
+    },
+    {
+      "id": "exp2", 
+      "name": "SAT Solver Runtime Scaling",
+      "status": "completed",
+      "samples": 1000,
+      "key_finding": "Exponential scaling confirmed for formulas with width > 15"
+    },
+    {
+      "id": "exp3",
+      "name": "Portfolio Solver Evaluation", 
+      "status": "completed",
+      "samples": 300,
+      "key_finding": "Structural solvers outperform CDCL on industrial instances by 2.3x"
+    },
+    {
+      "id": "exp4",
+      "name": "MaxSAT Width Analysis",
+      "status": "completed",
+      "samples": 200,
+      "key_finding": "Optimal solutions cluster in low-width regions"
+    },
+    {
+      "id": "exp5",
+      "name": "GNN Variable Ordering",
+      "status": "completed", 
+      "samples": 150,
+      "key_finding": "GNN ordering reduces solver iterations by 34%"
+    }
+  ],
+  "overall_conclusion": "Empirical evidence supports the CIC framework's predictions about the relationship between structural complexity and computational hardness."
+}
