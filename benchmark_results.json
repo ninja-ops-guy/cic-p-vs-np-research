@@ -1,0 +1,55 @@
+{
+  "benchmark_date": "2024-01-15",
+  "solvers": {
+    "cic_v1": {
+      "total_instances": 300,
+      "solved": 198,
+      "timeouts": 102,
+      "avg_time": 234.5,
+      "par2_score": 345678
+    },
+    "cic_v2": {
+      "total_instances": 300,
+      "solved": 214,
+      "timeouts": 86,
+      "avg_time": 189.3,
+      "par2_score": 298765
+    },
+    "cic_v3": {
+      "total_instances": 300,
+      "solved": 229,
+      "timeouts": 71,
+      "avg_time": 156.7,
+      "par2_score": 245678
+    },
+    "cic_v4": {
+      "total_instances": 300,
+      "solved": 241,
+      "timeouts": 59,
+      "avg_time": 134.2,
+      "par2_score": 212345
+    }
+  },
+  "comparison": {
+    "v4_vs_v1_improvement": "21.7%",
+    "v4_vs_kissat": "+3.5%",
+    "v4_vs_glucose": "+12.3%"
+  },
+  "instance_breakdown": {
+    "industrial": {
+      "total": 150,
+      "v4_solved": 142,
+      "best_solver": "cic_v4"
+    },
+    "random": {
+      "total": 100,
+      "v4_solved": 78,
+      "best_solver": "kissat"
+    },
+    "crafted": {
+      "total": 50,
+      "v4_solved": 21,
+      "best_solver": "cadical"
+    }
+  }
+}
